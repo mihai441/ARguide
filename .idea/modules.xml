@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ARguide.iml" filepath="$PROJECT_DIR$/.idea/modules/ARguide.iml" group="ARguide" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ARguide-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ARguide-app.iml" group="ARguide/app" />
       <module fileurl="file://$PROJECT_DIR$/QRCode.iml" filepath="$PROJECT_DIR$/QRCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

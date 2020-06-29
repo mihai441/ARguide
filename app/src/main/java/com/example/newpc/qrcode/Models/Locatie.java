@@ -1,16 +1,20 @@
 package com.example.newpc.qrcode.Models;
 
+import java.util.Date;
+
 /**
  * Created by AsX on 4/12/2020.
  */
 
 public class Locatie {
-    public String getNume() {
-        return Nume;
+    public String getDenumire() {
+        return Denumire;
     }
 
-    public void setNume(String nume) {
-        Nume = nume;
+    public int getEtaj() {return Etaj;}
+
+    public void setDenumire(String nume) {
+        Denumire = nume;
     }
 
     public String getCod() {
@@ -29,13 +33,21 @@ public class Locatie {
         CodQR = codQR;
     }
 
-    private String Nume;
+    public void setEtaj(int Etaj) { this.Etaj = Etaj;}
+
+
+
+    private String Denumire;
     private String Cod;
     private String CodQR;
+    private Date DataAdaugare;
+    private int Etaj;
 
-    public Locatie(String nume, String cod, String codQR){
-        this.setNume(nume);
+
+    public Locatie(String nume, String cod, String codQR, int etaj){
+        this.setDenumire(nume);
         this.setCod(cod);
         this.setCodQR(codQR);
+        this.setEtaj(etaj);
     }
 }
