@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">QR Code</string>
+    <string name="app_name">AR Guide</string>
+    <string name="action_settings">Settings</string>
 </resources>
